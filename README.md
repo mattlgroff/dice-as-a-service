@@ -1,7 +1,7 @@
 ### dice-as-a-service
 
 # What is it?
-API for rolling dice.
+Node.js microservice for rolling dice.
 
 # Why?
 For fun. No other reason. The concept doesn't make sense.
