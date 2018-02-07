@@ -1,0 +1,19 @@
+{
+  "name": "dice-as-a-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattlgroff/dice-as-a-service.git"
+  },
+  "author": "Matt Groff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattlgroff/dice-as-a-service/issues"
+  },
+  "homepage": "https://github.com/mattlgroff/dice-as-a-service#readme"
+}
