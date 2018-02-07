@@ -1,20 +1,22 @@
-### dice-as-a-service
+# dice-as-a-service
 
-# What is it?
+### What is it?
 Node.js microservice for rolling dice.
 
-# Why?
+### Why?
 For fun. No other reason. The concept doesn't make sense.
 
-[Demo](http://rolld.herokuapp.com)
+[React Client Demo](http://rolld.herokuapp.com) + [Demo Source Code](https://github.com/mattlgroff/dice-roll-client)
 
-# How do I use it?
+### How do I use it?
 Make a POST request to the server, like so:
 ```
 $.post( "http://rolld.herokuapp.com/4d6", function(data) {
   console.log(data)
 })
 ```
+
+Or use something like my demo above.
 
 # Example Query:
 Make sure the parameter sent are valid, positive integers with a 'd' in between.
