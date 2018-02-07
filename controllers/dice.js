@@ -4,7 +4,7 @@ module.exports = {
 		const dice_arr = dice_string.split('d')
     const num_of_dice = parseInt(dice_arr[0])
     const size_of_dice = parseInt(dice_arr[1])
-    
+
     // Malformed string entered instead of #d#
     if(! dice_string.includes('d')){
       res.json(
@@ -14,7 +14,7 @@ module.exports = {
       })
     }
     // Not a number, or a negative number.
-    else if ( isNaN(num_of_dice) || isNaN(size_of_dice) || num_of_dice < 0 || size_of_dice < 0 || ! Number.isInteger(dice_arr[0]) || ! Number.isInteger(dice_arr[1]) ){
+    else if ( isNaN(num_of_dice) || isNaN(size_of_dice) || num_of_dice < 0 || size_of_dice < 0 ){
       res.json(
         {
           'error_msg': 'Please use a standard positive integer: #d#',
