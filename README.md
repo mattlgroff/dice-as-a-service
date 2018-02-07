@@ -6,12 +6,12 @@ Node.js microservice for rolling dice.
 ### Why?
 For fun. No other reason. The concept doesn't make sense.
 
-[React Client Demo](http://rolld.herokuapp.com) + [Demo Source Code](https://github.com/mattlgroff/dice-roll-client)
+[React Client Demo](https://rolld.herokuapp.com) + [Demo Source Code](https://github.com/mattlgroff/dice-roll-client)
 
 ### How do I use it?
 Make a POST request to the server, like so:
 ```
-$.post( "http://rolld.herokuapp.com/4d6", function(data) {
+$.post( "https://rolld.herokuapp.com/4d6", function(data) {
   console.log(data)
 })
 ```
