@@ -24,7 +24,7 @@ Make sure the parameter sent are valid, positive integers with a 'd' in between.
 # Example Response (JSON):
 ```
 {
-    "Results": {
+    "results": {
         "input": "6d6",
         "max": 36,
         "min": 6,
