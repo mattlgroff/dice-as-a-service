@@ -1,0 +1,1 @@
+module.exports = app => app.get('*', (req, res) => res.redirect('https://github.com/mattlgroff/dice-as-a-service'))
